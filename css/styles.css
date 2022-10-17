@@ -128,6 +128,29 @@ ul {
   color: rgba(255, 255, 255, 0.6);
 }
 /* main content-portfolio*/
-.block {
-  display: block;
+.portfolio-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.16;
+  text-align: center;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.portfolio-button:hover,
+:focus {
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.cases {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color);
+}
+.cases-group {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--secondary-text-color);
 }
