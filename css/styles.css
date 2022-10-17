@@ -135,6 +135,7 @@ ul {
   text-align: center;
   background: #f5f4fa;
   border-radius: 4px;
+  border: none;
 }
 .portfolio-button:hover,
 :focus {
@@ -153,4 +154,7 @@ ul {
   font-size: 16px;
   line-height: 1.87;
   color: var(--secondary-text-color);
+}
+.block {
+  display: none;
 }
