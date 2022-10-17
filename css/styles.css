@@ -1,7 +1,133 @@
-
-.link{
-    color: black;
+:root {
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --black-text-color: #000000;
 }
-.link:hover{
-    color: tomato;
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  background-color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+/* Шапка */
+.logo {
+  font-family: 'Raleway';
+  color: var(--black-text-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo-text {
+  color: var(--accent-color);
+}
+.nav-list {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.nav-list-link {
+  color: var(--main-text-color);
+}
+.nav-list-link:hover,
+:focus {
+  color: var(--accent-color);
+}
+.contacts {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.contacts-link {
+  color: var(--secondary-text-color);
+}
+.contacts-link:hover,
+:focus {
+  color: var(--accent-color);
+}
+/* main content*/
+.hero {
+  background-color: #2f303a;
+  text-align: center;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: #ffffff;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: var(--accent-color);
+  border: none;
+}
+.benefits {
+  font-weight: 700;
+  line-height: 1.14px;
+  text-transform: uppercase;
+  color: var(--main-text-color);
+}
+.benefits-text {
+  line-height: 1.71;
+  color: var(--secondary-text-color);
+}
+.work {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--main-text-color);
+}
+.team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--main-text-color);
+}
+.team-names {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  color: var(--main-text-color);
+}
+.team-prof {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+/*Подвал*/
+.footer-background {
+  background-color: #2f303a;
+}
+
+.address {
+  line-height: 1.14;
+  color: #ffffff;
+}
+.contacts-footer {
+  line-height: 1.14;
+  color: rgba(255, 255, 255, 0.6);
+}
+/* main content-portfolio*/
+.block {
+  display: block;
 }
