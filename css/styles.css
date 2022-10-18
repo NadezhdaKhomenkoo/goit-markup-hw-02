@@ -42,6 +42,7 @@ ul {
 :focus {
   color: var(--accent-color);
 }
+
 .contacts {
   font-weight: 500;
   line-height: 1.14;
@@ -154,6 +155,13 @@ ul {
   font-size: 16px;
   line-height: 1.87;
   color: var(--secondary-text-color);
+}
+.logo-footer {
+  font-family: 'Raleway';
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 .block {
   display: none;
