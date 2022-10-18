@@ -38,9 +38,11 @@ ul {
 .nav-list-link {
   color: var(--main-text-color);
 }
-.nav-list-link:hover,
-:focus {
+.nav-list-link:hover {
   color: var(--accent-color);
+}
+.nav-list-link:focus {
+  color: var(--main-text-color);
 }
 
 .contacts {
@@ -51,8 +53,10 @@ ul {
 .contacts-link {
   color: var(--secondary-text-color);
 }
-.contacts-link:hover,
-:focus {
+.contacts-link:hover {
+  color: var(--accent-color);
+}
+.contacts-link:focus {
   color: var(--accent-color);
 }
 /* main content*/
